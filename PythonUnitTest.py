@@ -1,7 +1,7 @@
 from validate_name import validate
 import unittest
 
-class TestRearrange(unittest.TestCase):
+class tester(unittest.TestCase):
     def test_basic(self):
         testcase = "Johnny, Cage"
         expected = "Cage Johnny"
